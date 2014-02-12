@@ -4,7 +4,7 @@
   "description": "node.js lib for the Chipolo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jshint *.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/sandeepmistry/node-chipolo/issues"
   },
-  "homepage": "https://github.com/sandeepmistry/node-chipolo"
+  "homepage": "https://github.com/sandeepmistry/node-chipolo",
+  "devDependencies": {
+    "jshint": "~2.4.3",
+    "bleno": "~0.1.2"
+  },
+  "dependencies": {
+    "noble": "~0.2.8"
+  }
 }
