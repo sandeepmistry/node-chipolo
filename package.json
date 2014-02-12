@@ -1,0 +1,22 @@
+{
+  "name": "chipolo",
+  "version": "0.0.0",
+  "description": "node.js lib for the Chipolo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandeepmistry/node-chipolo"
+  },
+  "keywords": [
+    "chipolo"
+  ],
+  "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandeepmistry/node-chipolo/issues"
+  },
+  "homepage": "https://github.com/sandeepmistry/node-chipolo"
+}
