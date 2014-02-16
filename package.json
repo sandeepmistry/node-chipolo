@@ -21,9 +21,11 @@
   "homepage": "https://github.com/sandeepmistry/node-chipolo",
   "devDependencies": {
     "jshint": "~2.4.3",
-    "bleno": "~0.1.2"
+    "bleno": "~0.1.2",
+    "async": "~0.2.10"
   },
   "dependencies": {
-    "noble": "~0.2.8"
+    "noble": "~0.2.8",
+    "debug": "~0.7.4"
   }
 }

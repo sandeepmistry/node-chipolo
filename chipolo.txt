@@ -1,0 +1,121 @@
+node advertisement-discovery.js 
+peripheral discovered (eb574b429514434788e7793007e0b93e):
+  hello my local name is:
+    undefined
+  can I interest you in any of the following advertised services:
+    ["451085d6f8334f7783d44f9438894ed5"]
+  here is my service data:
+    "c01005"
+
+node peripheral-explorer.js eb574b429514434788e7793007e0b93e
+peripheral with UUID eb574b429514434788e7793007e0b93e found
+  Local Name        = Chipolo
+  Service Data      = �
+  Service UUIDs     = 451085d6f8334f7783d44f9438894ed5
+
+services and characteristics:
+1800 (Generic Access)
+  2a00 (Device Name)
+    properties  read
+    value       436869706f6c6f | 'Chipolo'
+  2a01 (Appearance)
+    properties  read
+    value       0000 | ''
+  2a02 (Peripheral Privacy Flag)
+    properties  read, write
+    value       00 | ''
+  2a03 (Reconnection Address)
+    properties  write
+  2a04 (Peripheral Preferred Connection Parameters)
+    properties  read
+    value       5000a0000000e803 | 'P h'
+1801 (Generic Attribute)
+  2a05 (Service Changed)
+    properties  indicate
+180a (Device Information)
+  2a23 (System ID)
+    properties  read
+    value       6d472200008cba1c | 'mG"
+                                       :'
+  2a24 (Model Number String)
+    properties  read
+    value       4d494949 | 'MIII'
+  2a25 (Serial Number String)
+    properties  read
+    value       436870313132 | 'Chp112'
+  2a26 (Firmware Revision String)
+    properties  read
+    value       31 | '1'
+  2a27 (Hardware Revision String)
+    properties  read
+    value       3361 | '3a'
+  2a28 (Software Revision String)
+    properties  read
+    value       31 | '1'
+  2a29 (Manufacturer Name String)
+    properties  read
+    value       47454154524f4e494b | 'GEATRONIK'
+  2a2a (IEEE 11073-20601 Regulatory Certification Data List)
+    properties  read
+    value       fe00436869706f6c6f | '~Chipolo'
+  2a50 (PnP ID)
+    properties  read
+'   value       010d0000001001 | '
+6c1bd261c1b64f75842de452c05bec0c
+  fff1 (MyId) - BT Address
+    properties  read
+    value       6d47228cba1c | 'mG"
+                                   :'
+  fff2 (DevId)
+    properties  write
+  fff3 (Code)
+    properties  write
+  fff0 (Stat)
+    properties  read, notify
+    value       10 | ''
+  ffe0 (Ctrl)
+    properties  read, write
+    value       01 | ''
+  fff5 (ConnInt)
+    properties  read, write
+    value       1900 | ''
+  fff6 (Clr) - Color
+    properties  read, write
+    value       05 | ''
+  fffa (Bat)
+    properties  read, notify
+    value       cb | 'K'
+  fffe (TOset)
+    properties  read, write
+    value       37 | '7'
+  fffc (SysCfg)
+    properties  read, write
+    value       00 | ''
+  fffd (SNFCfg)
+    properties  read, write
+    value       00 | ''
+  fff4
+    properties  write
+  fff7
+    properties  read, write
+    value       03 | ''
+  fff8 - temperature
+    properties  read, notify
+    value       17 | ''
+  fff9
+    properties  notify
+  fffb
+    properties  read, notify
+    value       0000 | ''
+  ffe1
+    properties  read
+    value       01 | ''
+  ffe2
+    properties  read, write
+    value       31 | '1'
+08e7e5813deb4a4497e79a642bd6452e
+  f000ffc104514000b000000000000000 (Img Identify)
+    properties  writeWithoutResponse, write, notify
+  f000ffc204514000b000000000000000 (Img Block)
+    properties  writeWithoutResponse, write, notify
+
