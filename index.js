@@ -46,8 +46,9 @@ function Chipolo(peripheral) {
 
   this.uuid = peripheral.uuid;
 
-  if (peripheral.advertisement.serviceData) {
-    var colorCode = peripheral.advertisement.serviceData[2];
+  var serviceData = peripheral.advertisement.serviceData;
+  if (serviceData && serviceData.length) {
+    var colorCode = serviceData[0].data[0];
 
     this.color = COLOUR_MAPPER[colorCode] || 'unknown';
   }
