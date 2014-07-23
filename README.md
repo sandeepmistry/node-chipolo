@@ -35,7 +35,7 @@ __Discover Services and Characteristics__
 
 __Pair__
 
-Make sure Chipolo is not "paired" with other device first.
+Make sure Chipolo is not "paired" with other device first. Otherwise ```success``` will always return ```false```.
 
     chipolo.pair(callback(success)); // success: true | false
 
